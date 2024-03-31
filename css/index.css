@@ -3650,6 +3650,11 @@ pre .coffeescript .title {
 .trm-left-side h6 {
   font-size: 20px;
 }
+.sakura {
+  position: absolute;
+  z-index: 999999;
+  /* 设置一个较高的 z-index 值 */
+}
 :root .trm-top-bar,
 :root .trm-main-card,
 :root .trm-blog-card,
